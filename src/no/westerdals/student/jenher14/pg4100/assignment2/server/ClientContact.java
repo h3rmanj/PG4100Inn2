@@ -1,4 +1,4 @@
-package no.westerdals.student.jenher14.pg4100.assignment2;
+package no.westerdals.student.jenher14.pg4100.assignment2.server;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
