@@ -13,14 +13,17 @@ public class Server
 		try (DBHandlerBooklist db = new DBHandlerBooklist())
 		{
 			ArrayList<Book> books = db.getBooksFromDB();
+			System.out.println("Got books from DB.");
 
 			ServerSocket server = new ServerSocket(1994);
+			System.out.println("Server started.");
 
 			while (true)
 			{
 				Socket request = server.accept();
 				ClientContact contact = new ClientContact (request, books);
 				new Thread(contact).run();
+				System.out.println("Started a quiz with a client.");
 			}
 		}
 		catch (SQLException sql) { sql.printStackTrace(); }
