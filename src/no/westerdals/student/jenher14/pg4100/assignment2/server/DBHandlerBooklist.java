@@ -1,13 +1,15 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 2
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment2.server;
 
 import no.westerdals.student.jenher14.pg4100.assignment2.util.ConnectToDB;
-
 import java.sql.*;
 import java.util.ArrayList;
 
-/**
- * Created by Herman on 26.05.2016.
- */
 public class DBHandlerBooklist implements AutoCloseable
 {
     private final String SERVER = "localhost";

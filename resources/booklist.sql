@@ -1,3 +1,9 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 2
+ */
+
 CREATE DATABASE IF NOT EXISTS pg4100innlevering2;
 
 DROP TABLE IF EXISTS booklist;

@@ -1,4 +1,11 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 2
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment2.util;
+
 import java.sql.*;
 
 public class ConnectToDB implements AutoCloseable

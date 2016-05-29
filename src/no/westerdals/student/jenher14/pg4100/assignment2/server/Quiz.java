@@ -1,3 +1,9 @@
+/**
+ * Herman Jensen
+ * PG4100
+ * Innlevering 2
+ */
+
 package no.westerdals.student.jenher14.pg4100.assignment2.server;
 
 import java.util.ArrayList;
